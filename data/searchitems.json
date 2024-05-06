@@ -1,0 +1,226 @@
+{
+  "searchItems": [
+    {
+      "id": "1",
+      "mainId": 1,
+      "vegetableId": "carrot",
+      "imagePath": "/images/vegetables/carrot1.avif",
+      "imageAltName": "carrot1",
+      "imageDescription": "Vitamin-E carrot",
+      "currentRate": 100,
+      "previousRate": 500
+    },
+    {
+      "id": "2",
+      "mainId": 2,
+      "vegetableId": "carrot",
+      "imagePath": "/images/vegetables/carrot7.webp",
+      "imageAltName": "carrot1",
+      "imageDescription": "Vitamin-C carrot",
+      "currentRate": 300,
+      "previousRate": 500
+    },
+    {
+      "id": "3",
+      "mainId": 3,
+      "vegetableId": "carrot",
+      "imagePath": "/images/vegetables/carrot5.avif",
+      "imageAltName": "carrot1",
+      "imageDescription": "Vitamin-C carrot",
+      "currentRate": 300,
+      "previousRate": 500
+    },
+    {
+      "id": "4",
+      "mainId": 4,
+      "vegetableId": "carrot",
+      "imagePath": "/images/vegetables/carrot6.avif",
+      "imageAltName": "carrot1",
+      "imageDescription": "Vitamin-C carrot",
+      "currentRate": 300,
+      "previousRate": 500
+    },
+    {
+      "id": "5",
+      "mainId": 5,
+      "vegetableId": "carrot",
+      "imagePath": "/images/vegetables/carrot2.jpg",
+      "imageAltName": "carrot1",
+      "imageDescription": "Vitamin-C carrot",
+      "currentRate": 300,
+      "previousRate": 500
+    },
+    {
+      "id": "f6d8"
+    },
+    {
+      "id": "c915"
+    },
+    {
+      "id": "a77d"
+    },
+    {
+      "id": "f8ea"
+    },
+    {
+      "id": "5",
+      "mainId": 5,
+      "vegetableId": "carrot",
+      "imagePath": "/images/vegetables/carrot2.jpg",
+      "imageAltName": "carrot1",
+      "imageDescription": "Vitamin-C carrot",
+      "currentRate": 300,
+      "previousRate": 500
+    },
+    {
+      "id": "5",
+      "mainId": 5,
+      "vegetableId": "carrot",
+      "imagePath": "/images/vegetables/carrot2.jpg",
+      "imageAltName": "carrot1",
+      "imageDescription": "Vitamin-C carrot",
+      "currentRate": 300,
+      "previousRate": 500
+    },
+    {
+      "id": "5",
+      "mainId": 5,
+      "vegetableId": "carrot",
+      "imagePath": "/images/vegetables/carrot2.jpg",
+      "imageAltName": "carrot1",
+      "imageDescription": "Vitamin-C carrot",
+      "currentRate": 300,
+      "previousRate": 500
+    },
+    {
+      "id": "5909"
+    },
+    {
+      "id": "7328"
+    },
+    {
+      "id": "6a0e",
+      "name": "post"
+    },
+    {
+      "id": "295a",
+      "method": "post"
+    },
+    {
+      "id": "bfed",
+      "method": "post"
+    },
+    {
+      "id": "cc6e",
+      "method": "post"
+    },
+    {
+      "id": "2d36",
+      "method": "post"
+    },
+    {
+      "id": "ccd2",
+      "method": "post"
+    },
+    {
+      "id": "c6af",
+      "method": "post"
+    },
+    {
+      "id": "bcf2",
+      "method": "post"
+    },
+    {
+      "id": "bab0",
+      "method": "post"
+    },
+    {
+      "id": "13d9",
+      "method": "post"
+    },
+    {
+      "id": "f957",
+      "method": "post"
+    },
+    {
+      "id": "8289",
+      "method": "post"
+    },
+    {
+      "id": "5455",
+      "method": "post"
+    },
+    {
+      "id": "af9c",
+      "method": "post"
+    },
+    {
+      "id": "653c",
+      "method": "post"
+    },
+    {
+      "id": "72e6",
+      "method": "post"
+    },
+    {
+      "id": "aaee",
+      "method": "post",
+      "file": "axiois"
+    },
+    {
+      "id": "b93b",
+      "method": "post",
+      "file": "axiois"
+    },
+    {
+      "id": "6449",
+      "method": "post",
+      "file": "axiois"
+    },
+    {
+      "id": "5b28",
+      "method": "post",
+      "file": "axiois"
+    },
+    {
+      "id": "9815",
+      "method": "post",
+      "file": ""
+    },
+    {
+      "id": "6199",
+      "method": "post",
+      "file": "json"
+    },
+    {
+      "id": "6e71",
+      "method": "post",
+      "file": "json"
+    },
+    {
+      "id": "d62b",
+      "method": "post",
+      "file": "json"
+    },
+    {
+      "id": "9a47",
+      "method": "post",
+      "file": ""
+    },
+    {
+      "id": "14fd",
+      "method": "post",
+      "file": "applicatioj"
+    },
+    {
+      "id": "5264",
+      "method": "post",
+      "file": "application"
+    },
+    {
+      "id": "fb52",
+      "method": "post",
+      "file": "application "
+    }
+  ]
+}

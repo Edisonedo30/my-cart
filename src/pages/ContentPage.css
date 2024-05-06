@@ -1,0 +1,145 @@
+.shopping_container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+}
+.shopping_container h1{
+    width: 100%;
+    height:10%;
+    font-size: 30px;
+    background-color: transparent;
+    padding-left: 1%;
+}
+.shopping_list_container{
+    width: 100%;
+    height:auto;
+    background-color: transparent;
+    display: flex;
+    padding: 0px 1%;
+}
+.shopping_cart_container{
+    width:70%;
+    height:auto;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1%;
+    border: .5px solid grey;
+    padding: 10px;
+
+}
+.new_cart_list{
+    width: 100%;
+    display: flex;
+    height: 200px;
+    padding:5px;
+    /* background-color: yellowgreen; */
+}
+.new_cart_list input{
+    width:3%;
+    height: 25px;
+    position: relative;
+    top: 80px;
+    margin-right:15px;
+}
+.new_cart_list img{
+   width:37%;
+   height:100%;
+   border: .5px solid rgb(132, 128, 128);
+}
+.new_cart_list .cart_item_details{
+    width: 60%;
+    height:100%;
+    padding:10px 15px;
+    background-color: transparent;
+}
+.cart_item_details .item_head_list{
+    width: 100%;
+    height: 50%;
+}
+.item_head_list h3{
+    font-size: 25px;
+}
+.item_head_list p{
+    font-size: 20px;
+}
+.item_bottom_list button{
+    width: 100px;
+    height: 30px;
+    background-color: gainsboro;
+    border-radius: 5px;
+}
+.cart_item_details .item_bottom_list{
+    width: 100%;
+    height: 50%;
+}
+.proceed_checkout{
+    width: 29%;
+    height: 50%;
+    border: .5px solid grey;
+}
+
+/* Search pages css */
+.search_page_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.search_results_container{
+    width: 75%;
+    height: 100%;
+    background-color: aqua;
+}   
+.search_result_lists{
+    width: 100%;
+    height:100%;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+
+}
+.search_items{
+    width: 215px;
+    height: 300px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: .1px solid rgb(224, 220, 220);
+    cursor: pointer;
+    background-color: blue;
+}
+.search_items h3{
+    font-weight: 500;
+    padding: 0px 12px;
+}
+.search_items img{
+    width: 100%;
+    height: 80%;
+    transition: linear .1s;
+    padding:12px 12px 0px 12px;
+    cursor: pointer;
+}
+.search_items img:hover{
+    padding: 8px;
+}
+.search_items_info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    padding:6px 12px 6px 12px;
+}
+.search_items_info span{
+    color: var(--lightgreentext);
+}
+.search_items_info small{
+    margin-left: 6px;
+    font-size: 10px;
+    color: burlywood;
+}
+
+/*  */
