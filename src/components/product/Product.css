@@ -1,68 +1,63 @@
-.product-list-container{
-    width:75%;
+.product-collection-container{
+    width: 100%;
     height: 100%;
-    background-color:transparent;
+    /* background-color: red; */
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    margin: 10px 10px 0px 0px;
-}
-.product-category{
-    width: 100%;
-    height:100%;
-    background-color:transparent;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 1%;
-}
-.product-category h3{
-    width:200px;
-    height: 10%;
-    font-size:30px;
-    position:relative;
-    left: 40%;
-    text-align: center;
-    background-color: rgb(85, 189, 85);
-    color: white;
-    border: 3px dotted  black;
-    border-radius: 3px;
-    text-transform: uppercase;
-    margin: 1% 0;
-}
-.product-collection{
-    width: 100%;
-    height:85%;
-    border: 1px solid black;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    justify-content: space-between;
-    row-gap: 10px;
-    column-gap: 10px;
-    cursor: pointer;
-    box-sizing: border-box;
+    align-items: center;
     padding: 10px;
 }
-.collection-info{
-    width:100%;
-    height:200px;
-    display: flex;
-    flex-direction: column;
-    justify-content:space-between;
-    align-items: center;
-    border: 1px solid black;
-}
-.collection-info img{
-    width:100%;
-    height:80%;
-    transition: linear .1s;
-    padding:12px 12px 0px 12px;
-    cursor: pointer;
-}
-.collection-info span{
-    width:100%;
+.product-type{
+    width: 25%;
     height:20%;
     text-align: center;
-    color: var(--lightgreentext);
+    font-size: 30px;
+    font-weight: 600;
+    border: 4px solid orange;
+    border-radius: 3px;
+    background-color: white;
+}
+.pro2x001{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 10px;
+    gap: 15px;
+    
+}
+.pro2xx1{
+    width: 24%;
+    height:250px;
+    border: 1px solid orange;
+}
+.pro2xxx1{
+    width: 100%;
+    height: 100%;
+}
+.pro2xxx1-img{
+    width: 100%;
+    height: 80%;
+    cursor: pointer;
+    padding: 10px;
+    transition: linear .2s;
+}
+.pro2xxx1-img:hover{
+    padding: 3px;
+}
+.pro2xxx1-details{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5px;
+}
+.product-info-name{
+    font-size: 18px;
+    font-weight: 500;
+}
+.product-info-price{
+    font-size: 16px;
+    font-weight: 600;
 }

@@ -1,202 +1,176 @@
 [
     {
-     "id":1,
+     "id":2001,
      "type":"Vegetables",
      "listOfProducts":[
               {
-                "id":1,
-                "name":"carrot"
+                "id":10001,
+                "name":"Carrot"
               },
               { 
-                "id":2,
-                "name":"beans"
+                "id":10002,
+                "name":"Beans"
               },
               {
-                "id":3,
-                "name":"tomoto"
+                "id":10003,
+                "name":"Tomoto"
               },
               {
-                "id":4,
-                "name":"beetroot"
+                "id":10004,
+                "name":"Beetroot"
               },
               {
-                "id":5,
-                "name":"onion"
+                "id":10005,
+                "name":"Onion"
               }]
     },{
-      "id":2,
+      "id":2002,
       "type":"Fruits",
       "listOfProducts":[
             {
-              "id":1,
-              "name":"orange"
+              "id":10006,
+              "name":"Orange"
             },
             {
-              "id":"apple",
+              "id":10007,
               "name":"Apple"
             },
             {
-              "id":"banana",
+              "id":10008,
               "name":"Banana"
             },
             {
-              "id":"pomogranite",
+              "id":10009,
               "name":"Pomogranite"
             },
             {
-              "id":"grapes",
-              "name":"Grapes"
+              "id":100101,
+              "name":"Dragon"
             }
       ]
     },{
-      "id":3,
-      "type":"Health Drinks",
+      "id":2003,
+      "type":"Juice",
       "listOfProducts":[
             {
-              "id":"vitamin-c",
+              "id":10011,
               "name":"Vitamin-C Juice"
             },
             {
-              "id":"fresh juice",
+              "id":10012,
               "name":"Fresh Juice"
             },
             {
-              "id":"vegetable juice",
+              "id":10013,
               "name":"Vegetable Juice"
             },
             {
-              "id":"dryfruitjuice",
+              "id":10014,
               "name":"Dryfruit Juice"
             },
             {
-              "id":"multivitamin",
+              "id":10015,
               "name":"Multi-Vitamin Juice"
             }
       ]
     },{
-        "id":4,
+        "id":2004,
         "type":"Beverages",
         "listOfProducts":[
               {
-                "id":"energy drinks",
+                "id":10016,
                 "name":"Energy Drinks"
               },
               {
-                "id":"fruit juices",
+                "id":10017,
                 "name":"Fruit Juices"
               },
               {
-                "id":"health drinks",
+                "id":10018,
                 "name":"Health Drinks"
               },
               {
-                "id":"soft drinks",
+                "id":100191,
                 "name":"Soft Drinks"
               },
               {
-                "id":"water bottle",
+                "id":10019,
                 "name":"Water Bottle"
               }
         ]
     },{
-      "id":5,
+      "id":2005,
       "type":"Foodgrains",
       "listOfProducts":[
             {
-              "id":"oil&ghee",
+              "id":100201,
               "name":"Oil & Ghee"
             },
             {
-              "id":"masala&spices",
-              "name":"Masala & Spices"
+              "id":10021,
+              "name":"Masala"
             },
             {
-              "id":"rice&ricefoods",
-              "name":"Rice & Rice foods"
+              "id":10022,
+              "name":"Rice"
             },
             {
-              "id":"salt&sugar",
+              "id":10023,
               "name":"Salt & Sugar"
             },
             {
-              "id":"dals&pulses",
+              "id":10024,
               "name":"Dals & Pulses"
             }
       ]
   },{
-    "id":6,
+    "id":2006,
     "type":"Snacks",
     "listOfProducts":[
           {
-            "id":1,
-            "name":"biscuit"
+            "id":10025,
+            "name":"Biscuit"
           },
           {
-            "id":2,
-            "name":"chocolate"
+            "id":10026,
+            "name":"Chocolate"
           },
           {
-            "id":3,
-            "name":"noodles"
+            "id":10027,
+            "name":"Noodles"
           },
           {
-            "id":4,
-            "name":"frozen&veggies"
+            "id":10028,
+            "name":"Frozen"
           },
           {
-            "id":5,
-            "name":"candies&mixture"
-          }
-    ]
-        },{
-          "id":7,
-          "type":"Leafies&Leaf",
+            "id":10029,
+            "name":"Candies & Mixture"
+          }]
+    },{
+          "id":2007,
+          "type":"Leafies",
           "listOfProducts":[
                 {
-                  "id":1,
-                  "name":"Spinach&Fenugreen"
+                  "id":100322,
+                  "name":"Spinach & Fenugreen"
                 },
                 {
-                  "id":2,
-                  "name":"Parsley&Mint"
+                  "id":10031,
+                  "name":"Parsley & Mint"
                 },
                 {
-                  "id":3,
-                  "name":"Lettuce&asparagus"
+                  "id":10032,
+                  "name":"Lettuce & Asparagus"
                 },
                 {
-                  "id":4,
-                  "name":"Curry&Watercress"
+                  "id":10033,
+                  "name":"Curry & Watercress"
                 },
                 {
-                  "id":5,
-                  "name":"Health_Leafies"
+                  "id":10034,
+                  "name":"Health Leafies"
                 }
           ]
-      },{
-        "id":8,
-        "type":"Cleaning&Household",
-        "listOfProducts":[
-              {
-                "id":"detergents&dishwash",
-                "name":"Detergents & Dishwash"
-              },
-              {
-                "id":"freshers&repellents",
-                "name":"Freshers & Repellents"
-              },
-              {
-                "id":"mops&brushes",
-                "name":"Mops & Brushes"
-              },
-              {
-                "id":"disposable&garbage",
-                "name":"Disposable & Garbage"
-              },
-              {
-                "id":"prins&scrubs",
-                "name":"Prins & Scrubs"
-              }
-        ]
       }
   ]

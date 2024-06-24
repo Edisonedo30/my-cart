@@ -66,16 +66,8 @@
             "imageDescription":"Vitamin-C carrot",
             "currentRate":300,
             "previousRate":8800},
-            {
-              "mainId":9,
-              "vegetableId":"carrot",
-              "imagePath":"/images/vegetables/carrot6.avif",
-              "imageAltName":"carrot1",
-              "imageDescription":"Vitamin-C carrot",
-              "currentRate":300,
-              "previousRate":8800},
               {
-                "mainId":10,
+                "mainId":9,
                 "vegetableId":"carrot",
                 "imagePath":"/images/vegetables/carrot2.jpg",
                 "imageAltName":"carrot1",
@@ -90,7 +82,7 @@
             "mainId":11,
             "vegetableId":"beans",
             "hello":"edo",
-            "imagePath":"/images/vegetables/onion1.jpg",
+            "imagePath":"/images/vegetables/beans5.webp",
             "imageAltName":"carrot1",
             "imageDescription":"Vitamin-E carrot",
             "currentRate":10000,
@@ -98,7 +90,7 @@
           {
             "mainId":12,
             "vegetableId":"beans",
-            "imagePath":"/images/vegetables/ladiesfinger2.jpg",
+            "imagePath":"/images/vegetables/beans7.avif",
             "imageAltName":"carrot1",
             "imageDescription":"Vitamin-C carrot",
             "currentRate":300,
@@ -106,7 +98,7 @@
           {
             "mainId":13,
             "vegetableId":"beans",
-            "imagePath":"/images/vegetables/tomoto1.jpg",
+            "imagePath":"/images/vegetables/brinjal1.jpg",
             "imageAltName":"carrot1",
             "imageDescription":"Vitamin-C carrot",
             "currentRate":300,
@@ -114,7 +106,7 @@
           {
             "mainId":14,
             "vegetableId":"beans",
-            "imagePath":"/images/vegetables/brinjal1.jpg",
+            "imagePath":"/images/vegetables/beans8.webp",
             "imageAltName":"carrot1",
             "imageDescription":"Vitamin-C carrot",
             "currentRate":300,
@@ -122,7 +114,7 @@
           {
             "mainId":15,
             "vegetableId":"beans",
-            "imagePath":"/images/vegetables/tomoto2.jpg",
+            "imagePath":"/images/vegetables/melakaigreen.png",
             "imageAltName":"carrot1",
             "imageDescription":"Vitamin-C carrot",
             "currentRate":300,
@@ -138,7 +130,7 @@
           {
             "mainId":17,
             "vegetableId":"beans",
-            "imagePath":"/images/vegetables/onion1.jpg",
+            "imagePath":"/images/vegetables/beans9.webp",
             "imageAltName":"carrot1",
             "imageDescription":"Vitamin-C carrot",
             "currentRate":300,
@@ -146,12 +138,273 @@
           {
             "mainId":18,
             "vegetableId":"beans",
-            "imagePath":"/images/vegetables/cabbage1.jpg",
+            "imagePath":"/images/vegetables/ladiesfinger2.jpg",
             "imageAltName":"carrot1",
             "imageDescription":"Vitamin-C carrot",
             "currentRate":300,
-            "previousRate":500}
-          ]},
+            "previousRate":500},
+            {
+              "mainId":1819,
+              "vegetableId":"beans",
+              "imagePath":"/images/vegetables/ladiesfinger1.webp",
+              "imageAltName":"carrot1",
+              "imageDescription":"Vitamin-C carrot",
+              "currentRate":300,
+              "previousRate":500}
+          ]},{
+            "id":"tomoto",
+            "itemLists":[
+              {
+                "mainId":18.1,
+                "vegetableId":"tomoto",
+                "imagePath":"/images/vegetables/tomoto1.jpg",
+                "imageAltName":"tomoto",
+                "imageDescription":"Tomoto",
+                "currentRate":300,
+                "previousRate":500
+              },{
+                "mainId":18.2,
+                "vegetableId":"tomoto",
+                "imagePath":"/images/vegetables/tomotogroup.jpg",
+                "imageAltName":"tomoto",
+                "imageDescription":"Tomoto",
+                "currentRate":300,
+                "previousRate":500
+              },
+              {
+                "mainId":18.3,
+                "vegetableId":"tomoto",
+                "imagePath":"/images/vegetables/tomoto3.jpeg",
+                "imageAltName":"tomoto",
+                "imageDescription":"Tomoto",
+                "currentRate":300,
+                "previousRate":500
+              },
+              {
+                "mainId":18.4,
+                "vegetableId":"tomoto",
+                "imagePath":"/images/vegetables/tomoto10.jpg",
+                "imageAltName":"tomoto",
+                "imageDescription":"Tomoto",
+                "currentRate":300,
+                "previousRate":500
+              },
+              {
+                "mainId":18.5,
+                "vegetableId":"tomoto",
+                "imagePath":"/images/vegetables/tomoto11.jpg",
+                "imageAltName":"tomoto",
+                "imageDescription":"Tomoto",
+                "currentRate":300,
+                "previousRate":500
+              },
+              {
+                "mainId":18.6,
+                "vegetableId":"tomoto",
+                "imagePath":"/images/vegetables/tomoto12.webp",
+                "imageAltName":"tomoto",
+                "imageDescription":"Tomoto",
+                "currentRate":300,
+                "previousRate":500
+              },
+              {
+                "mainId":18.7,
+                "vegetableId":"tomoto",
+                "imagePath":"/images/vegetables/tomoto14.webp",
+                "imageAltName":"tomoto",
+                "imageDescription":"Tomoto",
+                "currentRate":300,
+                "previousRate":500
+              },
+              {
+                "mainId":18.8,
+                "vegetableId":"tomoto",
+                "imagePath":"/images/vegetables/tomatoesgroup2.webp",
+                "imageAltName":"tomoto",
+                "imageDescription":"Tomoto",
+                "currentRate":300,
+                "previousRate":500
+              },
+              {
+                "mainId":18.9,
+                "vegetableId":"tomoto",
+                "imagePath":"/images/vegetables/tomoto2.jpg",
+                "imageAltName":"tomoto",
+                "imageDescription":"Tomoto",
+                "currentRate":300,
+                "previousRate":500
+              }
+            ]
+          },{
+            "id":"beetroot",
+            "itemLists":[
+              {
+                "mainId":18.10,
+                "vegetableId":"beetroot",
+                "imagePath":"/images/vegetables/beetroot2.webp",
+                "imageAltName":"Beetroot",
+                "imageDescription":"Red Beetroot",
+                "currentRate":300,
+                "previousRate":500
+              },
+              {
+                "mainId":18.11,
+                "vegetableId":"beetroot",
+                "imagePath":"/images/vegetables/beetroot1.avif",
+                "imageAltName":"Beetroot",
+                "imageDescription":"Red Beetroot",
+                "currentRate":300,
+                "previousRate":500
+              },{
+                "mainId":18.12,
+                "vegetableId":"beetroot",
+                "imagePath":"/images/vegetables/beetroot3.avif",
+                "imageAltName":"Beetroot",
+                "imageDescription":"Red Beetroot",
+                "currentRate":300,
+                "previousRate":500
+              },
+              {
+                "mainId":18.18,
+                "vegetableId":"beetroot",
+                "imagePath":"/images/vegetables/beetroot6.webp",
+                "imageAltName":"Beetroot",
+                "imageDescription":"Red Beetroot",
+                "currentRate":300,
+                "previousRate":500
+              },
+              {
+                "mainId":18.14,
+                "vegetableId":"beetroot",
+                "imagePath":"/images/vegetables/beetroot4.jpg",
+                "imageAltName":"Beetroot",
+                "imageDescription":"Red Beetroot",
+                "currentRate":300,
+                "previousRate":500
+              },
+              {
+                "mainId":18.15,
+                "vegetableId":"beetroot",
+                "imagePath":"/images/vegetables/beetroot5.avif",
+                "imageAltName":"Beetroot",
+                "imageDescription":"Red Beetroot",
+                "currentRate":300,
+                "previousRate":500
+              },
+              {
+                "mainId":18.20,
+                "vegetableId":"beetroot",
+                "imagePath":"/images/vegetables/beetroot3.avif",
+                "imageAltName":"Beetroot",
+                "imageDescription":"Red Beetroot",
+                "currentRate":300,
+                "previousRate":500
+              },
+              {
+                "mainId":18.10,
+                "vegetableId":"beetroot",
+                "imagePath":"/images/vegetables/beetroot2.webp",
+                "imageAltName":"Beetroot",
+                "imageDescription":"Red Beetroot",
+                "currentRate":300,
+                "previousRate":500
+              },
+              {
+                "mainId":18.16,
+                "vegetableId":"beetroot",
+                "imagePath":"/images/vegetables/beetroot6.webp",
+                "imageAltName":"Beetroot",
+                "imageDescription":"Red Beetroot",
+                "currentRate":300,
+                "previousRate":500
+              }
+            ]
+          },{
+            "id":"onion",
+            "itemLists":[
+              {
+                "mainId":18.37,
+                "vegetableId":"onion",
+                "imagePath":"/images/vegetables/onion14.jpg",
+                "imageAltName":"Onion",
+                "imageDescription":"Healty Onion",
+                "currentRate":300,
+                "previousRate":500
+              },
+              {
+                "mainId":18.30,
+                "vegetableId":"onion",
+                "imagePath":"/images/vegetables/onion1.jpg",
+                "imageAltName":"Onion",
+                "imageDescription":"Healty Onion",
+                "currentRate":300,
+                "previousRate":500
+              },
+              {
+                "mainId":18.31,
+                "vegetableId":"onion",
+                "imagePath":"/images/vegetables/onion2.jpg",
+                "imageAltName":"Onion",
+                "imageDescription":"Healty Onion",
+                "currentRate":300,
+                "previousRate":500
+              },
+              {
+                "mainId":18.32,
+                "vegetableId":"onion",
+                "imagePath":"/images/vegetables/onion10.jpg",
+                "imageAltName":"Onion",
+                "imageDescription":"Healty Onion",
+                "currentRate":300,
+                "previousRate":500
+              },
+              {
+                "mainId":18.33,
+                "vegetableId":"onion",
+                "imagePath":"/images/vegetables/onion11.jpg",
+                "imageAltName":"Onion",
+                "imageDescription":"Healty Onion",
+                "currentRate":300,
+                "previousRate":500
+              },
+              {
+                "mainId":18.35,
+                "vegetableId":"onion",
+                "imagePath":"/images/vegetables/onion12.jpg",
+                "imageAltName":"Onion",
+                "imageDescription":"Healty Onion",
+                "currentRate":300,
+                "previousRate":500
+              },
+              {
+                "mainId":18.39,
+                "vegetableId":"onion",
+                "imagePath":"/images/vegetables/onion2.jpg",
+                "imageAltName":"Onion",
+                "imageDescription":"Healty Onion",
+                "currentRate":300,
+                "previousRate":500
+              },
+              {
+                "mainId":18.38,
+                "vegetableId":"onion",
+                "imagePath":"/images/vegetables/onion10.jpg",
+                "imageAltName":"Onion",
+                "imageDescription":"Healty Onion",
+                "currentRate":300,
+                "previousRate":500
+              },
+              {
+                "mainId":18.36,
+                "vegetableId":"onion",
+                "imagePath":"/images/vegetables/onion14.jpg",
+                "imageAltName":"Onion",
+                "imageDescription":"Healty Onion",
+                "currentRate":300,
+                "previousRate":500
+              }
+            ]
+          },
         {"id":"parsley&mint",
           "itemLists":[
               {

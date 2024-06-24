@@ -6,30 +6,25 @@ import { MdLocalOffer } from "react-icons/md";
 import GlobalContext from '../../../context/DataContext';
 
 export const OneProduct = () => {
-    const {productType,handleCart}=useContext(GlobalContext)
+    const {grocery,handleCart}=useContext(GlobalContext)
     const {id}=useParams();
-    const Item=productType.map(itemMap=>{
-       return itemMap.itemLists.find(itemFind=>{
-        return itemFind.mainId === Number(id)
-       })
-    })
-    const matchedItem=Item.find(matchItem=>{
-      return (matchItem) ? matchItem :matchItem
+    let fills=grocery.itemLists.find(filly=>{
+      return filly.mainId === Number(id)
     })
     
   return (
   <>
     <div className='one-product-section'>
         <div className='product-image'>
-            <img src={matchedItem.imagePath} alt={matchedItem.imageAltName} />
+            <img src={fills.imagePath} alt={fills.imageAltName} />
             <div className='product_checkout'>
-              <Link to='/addtocart'><button className='add_to_cart' type='button' 
-              onClick={()=>handleCart(matchedItem)}>ADD TO CART</button></Link>
-              <Link to='/buy'><button className='buy_now' type='button'>BUY NOW</button></Link>
+              <button className='add_to_cart' type='button' 
+              onClick={()=>handleCart(fills)}>ADD TO CART</button>
+              <Link to='/buy'className='buy_now'><button  type='button'>BUY NOW</button></Link>
             </div>
         </div>
         <div className='product-details'>
-                <h1>{matchedItem.imageDescription}</h1>
+                <h1>{fills.imageDescription}</h1>
                 <div className='product_rating_area'>
                     <span className='product_overall_rating'>4.7</span>
                     <div className='product_rating_star'>
@@ -43,8 +38,8 @@ export const OneProduct = () => {
                 </div>      
             <p>Extra Offers Available</p>
             <div className='product_price_detail'>                                       
-                <p className='product_currentrate'>	&#8377;{matchedItem.currentRate}</p>
-                <span className='product_previousrate'>&#8377;{matchedItem.previousRate}</span>
+                <p className='product_currentrate'>	&#8377;{fills.currentRate}</p>
+                <span className='product_previousrate'>&#8377;{fills.previousRate}</span>
                 <span className='product_offer_detail'>30% off</span>
             </div>
             <div className='product_available_offer'>

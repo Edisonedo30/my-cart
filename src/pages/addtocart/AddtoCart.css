@@ -55,10 +55,11 @@
     padding:10px 15px;
     background-color: transparent;
     display: flex;
+    flex-direction: column;
 }
 .item_head_list{
-    width: 50%;
-    height: 100%;
+    width: 70%;
+    height: 50%;
 }
 .item_head_list h3{
     font-size: 25px;
@@ -67,28 +68,21 @@
     font-size: 20px;
 }
 .item_bottom_list{
-    width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    
-}
-.item_bottom_list div{
-    width:150px;
-    height:40px;
-    background-color: gainsboro;
+    width:70%;
+    height:50%;
     border-radius: 5px;
     display: flex;
-    align-items: center;  
+    align-items: center;
 }
-.item_bottom_list div label{
-    font-size:17px;
+.item_bottom_list label{
+    font-size: 20px;
+    font-weight: 600;
 }
-.item_bottom_list div .quantity{
+.item_bottom_list input{
     width: 40px;
-    height: 20px;
-    text-align: center;
-    background-color: violet;
+    height: 30px;
+    padding: 0px 5px;
+    background-color: gainsboro;
 }
 .proceed_checkout{
     width: 29%;
@@ -145,3 +139,60 @@ c-item span:nth-child(2){
     padding: 5px 10px;
     margin: 20px 0px;
 }
+
+
+/* Buy product page */
+
+.buy-section{
+    width: 50%;
+    height: 300px;
+    border: 2px solid rgb(124, 121, 121);
+    position: relative;
+    left: 20%;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.buy-section h1{
+    border: 3px solid green;
+    padding: 5px 10px;
+    font-size: 25px;
+}
+.final-product,.final-amount,.final-address{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.order-btn{
+    padding: 10px 20px;
+    background-color: green;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.order-success{
+    width: 50%;
+    height: 100px;
+    position: relative;
+    left: 20%;
+    top: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    display: none;
+}
+.order-place-btn{
+    padding: 10px 20px;
+    background-color: green;
+    font-size: 20px;
+    font-weight: 600;
+    cursor:no-drop;
+}
+.back-btn-link{
+    background-color: rgb(172, 170, 170);
+    padding:5px 10px;
+}
+

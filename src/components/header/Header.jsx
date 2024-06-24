@@ -6,7 +6,8 @@ import { FaShoppingCart } from "react-icons/fa";
 import GlobalContext from '../../context/DataContext';
 
 export const Header = () => {
-       const {search,handleSearch,searchResults,handleSubmit}=useContext(GlobalContext)
+       const {search,cartList,searchHistory,
+        handleSearchHistory,handleSearch,handleSubmit}=useContext(GlobalContext)
   return (
     <>
       <div className='header_container'> 
@@ -18,38 +19,38 @@ export const Header = () => {
                   
                     <input className='s' type="text" value={search} 
                     onChange={(e)=>handleSearch(e.target.value)} placeholder='Search Items...'/>
-                  
-                  {/* <span className='search_icon'>
-                    <SearchSharpIcon className='search_icon'/>
-                  </span> */}
 
                 </form>
               
-              <div className='search-results'>
+             
                 {
-                    searchResults.length ?
-                    (searchResults.map(results=>{
-                      return <>
-                              <div className='search-result-item'>
-                                <span>{results.type}</span>
-                                <small>Remove</small>
-                              </div>
-                      </>
-                    }))
+                    search.length ? <>
+                       <div className='search-results'>
+                          {searchHistory.map(results=>{
+                            return <>
+                                    <div className='search-result-item' onClick={()=>handleSearchHistory()}>
+                                      <Link to={`/${results.item}`} ><span>{results.item}</span></Link>
+                                    </div>
+                            </>
+                          })}
+                        </div>
+                    </>
                     :
-                    <>
-                      <p></p>
-                    </>}
-              </div>
+                      <>
+
+                      </>
+                  }
+              
             </div>
             
 
             <div className='profile_information'>
                 <div className='add_to_cart'>
-                  <Link to="/vegetables/addtocart"><FaShoppingCart className='add_cart_icon'/></Link>
-                  <span className='addcart_list'></span>  
+                    
+                  <Link to="/addtocart"><FaShoppingCart className='add_cart_icon'/></Link>
+                  {cartList.length ? <span className='cart_count'>{cartList.length}</span> : ""}
+                  
                 </div>
-                <div className='account_list'>Account Lists</div>
                 <div className='account_profile'><img src="/images/background/groupfruit2.jpg" alt="" /></div>
             </div>
 
