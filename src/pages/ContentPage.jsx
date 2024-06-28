@@ -4,9 +4,7 @@ import GlobalContext from '../context/DataContext'
 import { Link } from 'react-router-dom'
 export const ContentPage = () => {
   const {searchResults}=useContext(GlobalContext)
-
-  console.log("searchResults = ",searchResults)
-    
+      
   return (
     <>
       <div className='search_page_container'>

@@ -1,6 +1,10 @@
+:root{
+    --light-grey:#EFECEC;
+    --light-white:#FFFAE6;
+}
 .centerbar_container{
     width: 100%;
     height: 100%;
-    background-color: transparent;
+    background-color:white;
     padding:10px;
 }

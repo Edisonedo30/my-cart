@@ -1,3 +1,11 @@
+:root{
+    --dark-orange:#FF5F00;
+    --dark-navy:#002379;
+    --light-orange:#FF9F66;
+    --light-white:#FFFAE6;
+    --light-grey:#EFECEC;
+    --light-pink:#FFB0B0;
+}
 *{
     padding: 0;
     margin: 0;
@@ -6,7 +14,7 @@
 .footer_container{
     width: 100%;
     height: 400px;
-    background-color:rgb(208, 196, 196);
+    background-color:var(--light-grey);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,14 +25,13 @@
     height: 20%;
     position: relative;
     top: 20px;
-    color: rgb(22, 88, 22);
+    color: var(--dark-navy);
 }
 .footer_list{
     width: 100%;
     height: 60%;
     padding: 20px 10px 10px;
     display: flex;
-    /* background-color: red; */
 }
 .flists{
     width: 25%;
@@ -35,11 +42,12 @@
 .flists h4{
     font-size:20px;
     font-weight: 600;
-    color: rgb(22, 88, 22);
+    color:var(--dark-navy);
     margin-bottom: 8px;
 }
 .flists span{
     font-family:monospace;
+    color: var(--light-orange);
 }
 .last_footer{
     width: 20%;
@@ -50,5 +58,6 @@
 }
 .last_footer button{
     padding: 5px;
-    background-color: rgb(247, 244, 244);
+    background-color:var(--dark-orange);
+    color: var(--dark-navy);
 }

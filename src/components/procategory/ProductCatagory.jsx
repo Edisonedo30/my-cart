@@ -5,29 +5,24 @@ import ProductList from './ProductList';
 import GlobalContext from '../../context/DataContext';
 
 export const ProductCatagory = () => {
-  
   const {products}=useContext(GlobalContext)
 
   return (
     <>
       <div className="catagory_container">
-        {products.map((mapCatagory)=>{
-          return <>
-                  <div className='catagory_list'>
-                      <div className="product_catagory">
-                        <ProductList key={mapCatagory.id} mapCatagory={mapCatagory}/>
-                      </div>           
-                    <div className='product_catagory_list'>
-                          <div className='product_catagory_innerlist'>
-                              {mapCatagory.listOfProducts.map((listCatagoryMap)=>{
-                                return  <>
-                                          <CategoryList key={listCatagoryMap.id} listCatagoryMap={listCatagoryMap} mapCatagory={mapCatagory}/>
-                                        </>
-                              })}
-                          </div>
-                      </div>
-                </div>
-            </>
+          {products.map((proList)=>{
+            return <div className='catagory_list' key={proList.id}>
+                                    <div className="product_catagory">
+                                        <ProductList proList={proList}/>
+                                    </div>           
+                                    <div className='product_catagory_list'>
+                                        
+                                        {proList.listOfProducts.map((lists)=>{
+                                            return <CategoryList key={lists.id} lists={lists} proList={proList}/>
+                                        })}
+                                       
+                                    </div>
+                    </div>
         })}
       </div>
     </>

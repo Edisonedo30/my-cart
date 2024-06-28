@@ -1,10 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const CategoryList = ({listCatagoryMap,mapCatagory}) => {
+const CategoryList = ({lists,proList}) => {
+  
   return (
     <>
-        <Link key={listCatagoryMap.id} to={`/${(mapCatagory.type).toLowerCase()}/${(listCatagoryMap.name).trim().toLowerCase()}`}>{listCatagoryMap.name}</Link>
+        <Link key={lists.id} to={`/${(proList.type).toLowerCase()}/${(lists.name).trim().toLowerCase()}`} className='catagory-name-list'>{lists.name}</Link>
     </>
   )
 }

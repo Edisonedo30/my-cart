@@ -5,12 +5,10 @@ import { LeftSideBar } from '../../maincontent/LeftSideBar'
 import GlobalContext from '../../../context/DataContext'
 
 export const SingleProductList = () => {
-
     const {grocery}=useContext(GlobalContext)
     const {id}=useParams()
-    console.log(id.replaceAll(' ',''))
-    let fills=grocery.itemLists.filter(filly=>{
-      return filly.catagoryId === id.replaceAll(" ","")
+    let productItem=grocery.itemLists.filter(items=>{
+      return items.catagoryId === id.replaceAll(" ","")
     })
 
   return (
@@ -20,16 +18,15 @@ export const SingleProductList = () => {
             <div className='product-category'>
                   <h3>{id}</h3>
                   <div className='product-collection'>            
-                        {fills.map(happy=>{
-                          return <>
-                                    <Link to={`/${happy.type}/${happy.catagoryId}/${happy.mainId}`} className='collection-info'>
-                                      <img src={happy.imagePath} alt="" />
-                                      <div className='product-details'>
-                                        <span className='product-name'>{happy.imageDescription}</span>
-                                        <span className='product-price'>&#8377;{happy.currentRate}</span>
+                        {productItem.map(item=>{
+                          return <Link to={`/${item.type}/${item.catagoryId}/${item.mainId}`}                 className='collection-info' key={item.mainId}>
+                                      <img src={item.imagePath} alt="" />
+                                      <div className='collection-description'>
+                                        <span className='product-name'>{item.imageDescription}</span>
+                                        <span className='product-price'>&#8377;{item.currentRate}</span>
                                       </div>
                                     </Link> 
-                                </>
+                                
                         })}
                   </div>
                 </div>  

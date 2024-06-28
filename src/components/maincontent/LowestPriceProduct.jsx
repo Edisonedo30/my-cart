@@ -11,16 +11,14 @@ export const LowestPriceProduct = () => {
     <div className='lowest_price_container'>
         <h2>Lowest Price List</h2>
         <div className='lowest_price_product'>
-            {lowestProduct.map((lowePrice)=>{
-                return <>
-                        <div className='lowest_price_product_item'>
-                            <img src={lowePrice.imagePath} alt={lowePrice.imageAltName} />
+            {lowestProduct.map((lowPrice)=>{
+                return <div className='lowest_price_product_item' key={lowPrice.mainId}>
+                            <img src={lowPrice.imagePath} alt={lowPrice.imageAltName} />
                             <div className='lowest_price_list'>
                                 <p>Lowest</p>
                                 <span><strong>50% OFF</strong></span>
                             </div>
-                        </div> 
-                    </>
+                        </div>
             })}
             
         </div>

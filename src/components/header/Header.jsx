@@ -10,28 +10,22 @@ export const Header = () => {
         handleSearchHistory,handleSearch,handleSubmit}=useContext(GlobalContext)
   return (
     <>
+    <div className='header-section'>
       <div className='header_container'> 
           <nav className='header_navbar'>
-            <h1 id='logo'>datacontext</h1>
+            <Link to="/" id='logo'>Grocery</Link>
             <div className='search-section'>
-              
                 <form className='search_form' onSubmit={(e)=>handleSubmit(e)}>
-                  
                     <input className='s' type="text" value={search} 
                     onChange={(e)=>handleSearch(e.target.value)} placeholder='Search Items...'/>
-
                 </form>
-              
-             
-                {
-                    search.length ? <>
+            
+                {search.length ? <>
                        <div className='search-results'>
                           {searchHistory.map(results=>{
-                            return <>
-                                    <div className='search-result-item' onClick={()=>handleSearchHistory()}>
+                            return <div className='search-result-item' key={results.id} onClick={()=>handleSearchHistory()}>
                                       <Link to={`/${results.item}`} ><span>{results.item}</span></Link>
                                     </div>
-                            </>
                           })}
                         </div>
                     </>
@@ -46,19 +40,17 @@ export const Header = () => {
 
             <div className='profile_information'>
                 <div className='add_to_cart'>
-                    
                   <Link to="/addtocart"><FaShoppingCart className='add_cart_icon'/></Link>
-                  {cartList.length ? <span className='cart_count'>{cartList.length}</span> : ""}
-                  
+                      {cartList.length ? <span className='cart_count'>{cartList.length}</span> : ""}
                 </div>
                 <div className='account_profile'><img src="/images/background/groupfruit2.jpg" alt="" /></div>
             </div>
-
+            
         </nav>
       </div>
 
       <ProductCatagory/>
-      
+    </div>
     <Outlet/>
     </>
   )

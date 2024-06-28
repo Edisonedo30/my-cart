@@ -4,7 +4,7 @@ import products from '../jsonfile/products.json'
 import productType from '../jsonfile/productType.json'
 import grocery from "../jsonfile/grocery.json"
 import searchItem from "../jsonfile/search.json"
-import footerArray from '../data/usingData.js'
+import {footerArray,productRating,randomProduct} from '../data/usingData.js'
 
 const GlobalContext=createContext();
 
@@ -15,10 +15,12 @@ export const DataContext = ({children}) => {
     const [totalAmount,setTotalAmount]=useState(0)
     const [quantityCount,setQuantityCount]=useState(1)
     let amount=0
+
     const handleCart=(cart)=>{
-      cart.checked=true
-      cart.quantity=quantityCount;
-      const newCartList=[...cartList,cart]
+      let newCartList=cartList.length ? cartList.filter((clist)=>{
+         return (clist.mainId !== cart.mainId) }): cartList
+      cart.quantity=1
+      newCartList=[...newCartList,cart]
       setCartList(newCartList)  
       handleTotalAmount(newCartList)
     }
@@ -34,14 +36,12 @@ export const DataContext = ({children}) => {
         for (let key in total) {
             if(key === "currentRate"){
               amount += quantityCount
-              setTotalAmount(amount)
             }
         }
       })
     }
     const handleProQuantity=(targetValue,targetId)=>{
       targetId.quantity=targetValue
-      setQuantityCount(targetId.quantity)
     }
     const handleSubmit=(e)=>{
       e.preventDefault();
@@ -49,22 +49,31 @@ export const DataContext = ({children}) => {
   
     const handleSearch=(value)=>{
       setSearch(value)
-      let dumResult= searchItem.filter(dum=>{  
-        return dum.item.includes(value)
+      let searchResult= searchItem.filter(result=>{  
+        return result.item.includes(value)
       })
-      setSearchHistory(dumResult)
+      setSearchHistory(searchResult)
     }
-    const handleCheckout=(amount)=>{
-      console.log("Amount = ",amount)
-      amount=amount+totalAmount
-      return setTotalAmount(amount)
+    const handleCheckout=(checkouts)=>{
+      let price=0
+      checkouts.forEach((checks)=>{
+        checks.newRate=checks.quantity * checks.currentRate 
+      })
+      checkouts.forEach((amt)=>{
+        price =price + amt.newRate
+      })
+      setTotalAmount(price)
     }
     const handleOrderBtn=()=>{
-      let afterOrder=document.querySelector('.order-success')
-      let beforeOrder=document.querySelector('.buy-section')
-      beforeOrder.style.display="none"
-      afterOrder.style.display="flex"
-      setCartList([])
+      if(totalAmount == 0){
+        alert("Add some items to the cart...")
+      }else{
+        let afterOrder=document.querySelector('.order-success')
+        let beforeOrder=document.querySelector('.buy-product-container')
+        beforeOrder.style.display="none"
+        afterOrder.style.display="flex"
+        setCartList([])
+    }
   }
   return (
     <>
@@ -73,7 +82,7 @@ export const DataContext = ({children}) => {
                     handleSubmit,setSearch,searchHistory,handleSearchHistory,handleSearch,handleCart,
                     handleCheckout,totalAmount,cartList,grocery,
                     handleTotalAmount,handleOrderBtn,handleProQuantity,
-                    quantityCount,footerArray}}>
+                    quantityCount,footerArray,productRating,randomProduct}}>
             {children}
         </GlobalContext.Provider>
     </>

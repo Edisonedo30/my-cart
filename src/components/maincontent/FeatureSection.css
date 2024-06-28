@@ -1,3 +1,10 @@
+:root{
+    --dark-orange:#FF5F00;
+    --dark-navy:#002379;
+    --light-white:#FFFAE6;
+    --light-grey:#EFECEC;
+}
+
 *,*::after,*::before{
     box-sizing: border-box;
 }
@@ -6,25 +13,28 @@
     width:100%;
     height:450px;
     display: flex;
+    justify-content: space-around;
     box-sizing: border-box;
-    margin: 10px 0px;
+    margin-top:80px;
 }
 .best_deal_feature{
-    width:48%;
+    width:49%;
     height:auto;
-    margin: 0px 1%;
-    border: 2px solid green;
+    background-color: #002379;
     display: flex;
     flex-direction:column;
     align-items:center;
-    padding: 10px;
+    padding:5px;
     text-align: center;
 }
 .best_deal_feature h2{
     width: 100%;
     height:10%;
+    position: relative;
+    top: -8px;
     font-size: 25px;
-    color: green;
+    /* font-weight: 600; */
+    color:var(--light-grey);
 }
 .best_deal_list{
     width: 100%;
@@ -36,7 +46,7 @@
     width:48%;
     height:48%;
     margin: 0px 1%;
-    border:.2px solid black;
+    /* border:.2px solid var(--light-grey); */
     object-fit: contain;
     cursor: pointer;
    
@@ -52,20 +62,18 @@
     padding: 0px;
 }
 .see_more_deal_btn{
-    width:40%;
+    width:30%;
     height:8%;
-    background-color:green;
-    color: white;
-    border-radius: 3px;
-    font-size: 20px;
+    background-color:var(--dark-orange);
+    color: var(--light-grey);
+    font-size: 18px;
     cursor: pointer;
 }
 
 .top_sale_feature{
-    width:48%;
+    width:49%;
     height:auto;
-    margin: 0px 1%;
-    border: 2px solid green;
+    background-color: var(--dark-navy);
     display: flex;
     flex-direction:column;
     align-items:center;
@@ -75,8 +83,10 @@
 .top_sale_feature h2{
     width: 100%;
     height:10%;
+    position: relative;
+    top: -8px;
     font-size: 25px;
-    color: green;
+    color:var(--light-grey);
 }
 .top_sale_list{
     width: 100%;
@@ -88,7 +98,6 @@
     width:48%;
     height:48%;
     margin: 0px 1%;
-    border:.2px solid black;
     object-fit: contain;
     cursor: pointer;
 }
@@ -100,14 +109,14 @@
 }
 .top_sale_img img:hover{
     padding: 0px;
+    /* border:.2px solid var(--light-grey); */
 }
 .see_more_sale_btn{
-    width:40%;
+    width:30%;
     height:8%;
-    background-color:green;
-    color: white;
-    border-radius: 3px;
-    font-size: 20px;
+    background-color:var(--dark-orange);
+    color:var(--light-grey);
+    font-size:18px;
     cursor: pointer;
 }
 

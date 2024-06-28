@@ -1,35 +1,41 @@
 :root{
-    --lightgrey:rgb(213, 209, 209);
+    --dark-orange:#FF5F00;
+    --dark-navy:#002379;
+    --light-orange:#FF9F66;
+    --light-white:#FFFAE6;
+    --light-grey:#EFECEC;
+    --light-pink:#FFB0B0;
 }
-
 .lowest_price_container{
     width: 100%;
     height: 700px;
     margin: 10px 0px;
     text-align: center;
     position: relative;
+    /* background-color: #002379; */
 }
 .lowest_price_container h2{
     height:10%;
     font-size: 30px;
+    color: var(--dark-navy);
 }
 .lowest_price_container h2::before{
     content: "";
     width: 30%;
-    height: 1px;
+    height:2px;
     position:absolute;
     left:60px;
-    top: 35px;
-    background-color:var(--lightgrey);
+    top: 27px;
+    background-color:var(--dark-navy);
 }
 .lowest_price_container h2::after{
     content: "";
     width: 30%;
-    height: 1px;
+    height: 2px;
     position:absolute;
     right:60px;
-    top: 35px;
-    background-color:var(--lightgrey);
+    top: 27px;
+    background-color:var(--dark-navy);
 }
 .lowest_price_product{
    width: 100%;
@@ -37,7 +43,6 @@
    display: flex;
    justify-content:space-between;
    flex-wrap: wrap;
-   /* border: 2px solid grey; */
    padding: 10px;
 }
 .lowest_price_product_item{
@@ -45,20 +50,26 @@
     height: 50%;
     margin: 0px;
     cursor: pointer;
-    transition:linear .1s;
+    transition:linear .2s;
 }
 .lowest_price_product_item img{
     width: 100%;
     height: 80%;
-    border: .5px solid rgb(138, 132, 132);
-    padding: 10px;
+    /* transition:linear .2s;     */
 }
-.lowest_price_product_item img:hover{
-    border: 2px solid green;
-
+.lowest_price_product_item:hover{
+    border: 2px solid var(--dark-navy);
+    /* background-color: #002379; */
+    padding:5px;
 }
 .lowest_price_list{
     width: 100%;
     height: 20%;
     text-align: center;
+}
+.lowest_price_list p{
+    color: var(--dark-navy);
+}
+.lowest_price_list span{
+    color: var(--dark-orange);
 }

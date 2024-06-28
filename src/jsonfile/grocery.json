@@ -1,7 +1,7 @@
     {"id":"vegetables",
         "itemLists":[
           {
-            "mainId":1,
+            "mainId":6661,
             "catagoryId":"carrot",
             "type":"vegetables",
             "imagePath":"/images/vegetables/carrot1.avif",
@@ -11,7 +11,7 @@
             "currentRate":50,
             "previousRate":90},
           {
-            "mainId":2,
+            "mainId":6662,
             "catagoryId":"carrot",
             "type":"vegetables",
             "imagePath":"/images/vegetables/carrot7.webp",
@@ -20,7 +20,7 @@
             "currentRate":30,
             "previousRate":50},
           {
-            "mainId":3,
+            "mainId":6663,
             "catagoryId":"carrot",
             "type":"vegetables",
             "imagePath":"/images/vegetables/carrot5.avif",
@@ -30,7 +30,7 @@
             "currentRate":55,
             "previousRate":70},
           {
-            "mainId":4,
+            "mainId":6664,
             "catagoryId":"carrot",
             "type":"vegetables",
             "imagePath":"/images/vegetables/carrot6.avif",
@@ -40,7 +40,7 @@
             "currentRate":80,
             "previousRate":120},
           {
-            "mainId":5,
+            "mainId":6665,
             "catagoryId":"carrot",
             "type":"vegetables",
             "imagePath":"/images/vegetables/carrot2.jpg",
@@ -49,7 +49,7 @@
             "currentRate":68,
             "previousRate":93},
           {
-            "mainId":6,
+            "mainId":6666,
             "catagoryId":"carrot",
             "type":"vegetables",
             "imagePath":"/images/vegetables/carrot4.avif",
@@ -58,7 +58,7 @@
             "currentRate":56,
             "previousRate":84},
           {
-            "mainId":7,
+            "mainId":6667,
             "catagoryId":"carrot",
             "type":"vegetables",
             "imagePath":"/images/vegetables/carrot5.avif",
@@ -67,7 +67,7 @@
             "currentRate":93,
             "previousRate":110},
           {
-            "mainId":8,
+            "mainId":6668,
             "catagoryId":"carrot",
             "type":"vegetables",
             "imagePath":"/images/vegetables/carrot6.avif",
@@ -76,7 +76,7 @@
             "currentRate":77,
             "previousRate":88},
               {
-                "mainId":9,
+                "mainId":6669,
                 "catagoryId":"carrot",
                 "type":"vegetables",
                 "imagePath":"/images/vegetables/carrot2.jpg",
@@ -86,7 +86,7 @@
                 "previousRate":89
             },
           {
-            "mainId":11,
+            "mainId":6671,
             "catagoryId":"beans",
             "type":"vegetables",
             "imagePath":"/images/vegetables/beans5.webp",
@@ -95,7 +95,7 @@
             "currentRate":59,
             "previousRate":99},
           {
-            "mainId":12,
+            "mainId":6672,
             "catagoryId":"beans",
             "type":"vegetables",
             "imagePath":"/images/vegetables/beans7.avif",
@@ -104,7 +104,7 @@
             "currentRate":64,
             "previousRate":84},
           {
-            "mainId":13,
+            "mainId":6673,
             "catagoryId":"beans",
             "type":"vegetables",
             "imagePath":"/images/vegetables/brinjal1.jpg",
@@ -114,7 +114,7 @@
             "currentRate":32,
             "previousRate":62},
           {
-            "mainId":14,
+            "mainId":6674,
             "catagoryId":"beans",
             "type":"vegetables",
             "imagePath":"/images/vegetables/beans8.webp",
@@ -124,7 +124,7 @@
             "currentRate":44,
             "previousRate":74},
           {
-            "mainId":15,
+            "mainId":6675,
             "catagoryId":"beans",
             "type":"vegetables",
             "imagePath":"/images/vegetables/melakaigreen.png",
@@ -133,7 +133,7 @@
             "currentRate":29,
             "previousRate":59},
           {
-            "mainId":16,
+            "mainId":6676,
             "catagoryId":"beans",
             "type":"vegetables",
             "imagePath":"/images/vegetables/melakay1.jpg",
@@ -142,7 +142,7 @@
             "currentRate":33,
             "previousRate":63}, 
           {
-            "mainId":17,
+            "mainId":6677,
             "catagoryId":"beans",
             "type":"vegetables",
             "imagePath":"/images/vegetables/beans9.webp",
@@ -151,7 +151,7 @@
             "currentRate":77,
             "previousRate":117},
           {
-            "mainId":18,
+            "mainId":6678,
             "catagoryId":"beans",
             "type":"vegetables",
             "imagePath":"/images/vegetables/ladiesfinger2.jpg",
@@ -170,7 +170,7 @@
               "previousRate":50
             },
               {
-                "mainId":18.1,
+                "mainId":8884,
                 "catagoryId":"tomoto",
                 "type":"vegetables",
                 "imagePath":"/images/vegetables/tomoto1.jpg",
@@ -211,7 +211,7 @@
                 "previousRate":300
               },
               {
-                "mainId":18.5,
+                "mainId":8887,
                 "catagoryId":"tomoto",
                 "type":"vegetables",
                 "imagePath":"/images/vegetables/tomoto11.jpg",
@@ -222,7 +222,7 @@
                 "previousRate":120
               },
               {
-                "mainId":18.6,
+                "mainId":8885,
                 "catagoryId":"tomoto",
                 "type":"vegetables",
                 "imagePath":"/images/vegetables/tomoto12.webp",
@@ -242,7 +242,7 @@
                 "previousRate":400
               },
               {
-                "mainId":18.8,
+                "mainId":8888,
                 "catagoryId":"tomoto",
                 "type":"vegetables",
                 "imagePath":"/images/vegetables/tomatoesgroup2.webp",
@@ -252,7 +252,7 @@
                 "previousRate":222
               },
               {
-                "mainId":18.9,
+                "mainId":8881,
                 "catagoryId":"tomoto",
                 "type":"vegetables",
                 "imagePath":"/images/vegetables/tomoto2.jpg",
@@ -262,7 +262,7 @@
                 "previousRate":110
               },
                   {
-                    "mainId":18.1101,
+                    "mainId":7788,
                     "catagoryId":"beetroot",
                     "type":"vegetables",
                     "imagePath":"/images/vegetables/beetroot2.webp",
@@ -272,7 +272,7 @@
                     "previousRate":500
                   },
                   {
-                    "mainId":18.11,
+                    "mainId":8882,
                     "catagoryId":"beetroot",
                     "type":"vegetables",
                     "imagePath":"/images/vegetables/beetroot1.avif",
@@ -281,7 +281,7 @@
                     "currentRate":30,
                     "previousRate":50
                   },{
-                    "mainId":18.12,
+                    "mainId":7787,
                     "catagoryId":"beetroot",
                     "type":"vegetables",
                     "imagePath":"/images/vegetables/beetroot3.avif",
@@ -291,7 +291,7 @@
                     "previousRate":150
                   },
                   {
-                    "mainId":18.18,
+                    "mainId":7786,
                     "catagoryId":"beetroot",
                     "type":"vegetables",
                     "imagePath":"/images/vegetables/beetroot6.webp",
@@ -302,7 +302,7 @@
                     "previousRate":230
                   },
                   {
-                    "mainId":18.14,
+                    "mainId":7785,
                     "catagoryId":"beetroot",
                     "type":"vegetables",
                     "imagePath":"/images/vegetables/beetroot4.jpg",
@@ -313,7 +313,7 @@
                     "previousRate":100
                   },
                   {
-                    "mainId":18.15,
+                    "mainId":7784,
                     "catagoryId":"beetroot",
                     "type":"vegetables",
                     "imagePath":"/images/vegetables/beetroot5.avif",
@@ -323,7 +323,7 @@
                     "previousRate":130
                   },
                   {
-                    "mainId":18.201,
+                    "mainId":7783,
                     "catagoryId":"beetroot",
                     "type":"vegetables",
                     "imagePath":"/images/vegetables/beetroot3.avif",
@@ -333,7 +333,7 @@
                     "previousRate":230
                   },
                   {
-                    "mainId":18.101,
+                    "mainId":7782,
                     "catagoryId":"beetroot",
                     "type":"vegetables",
                     "imagePath":"/images/vegetables/beetroot2.webp",
@@ -343,7 +343,7 @@
                     "previousRate":521
                   },
                   {
-                    "mainId":18.16,
+                    "mainId":8883,
                     "catagoryId":"beetroot",
                     "type":"vegetables",
                     "imagePath":"/images/vegetables/beetroot6.webp",
@@ -353,7 +353,7 @@
                     "previousRate":330
                   },
                   {
-                    "mainId":18.37,
+                    "mainId":7771,
                     "catagoryId":"onion",
                     "type":"vegetables",
                     "imagePath":"/images/vegetables/onion14.jpg",
@@ -364,7 +364,7 @@
                     "previousRate":230
                   },
                   {
-                    "mainId":18.301,
+                    "mainId":7772,
                     "catagoryId":"onion",
                     "type":"vegetables",
                     "imagePath":"/images/vegetables/onion1.jpg",
@@ -375,7 +375,7 @@
                     "previousRate":50
                   },
                   {
-                    "mainId":18.31,
+                    "mainId":7773,
                     "catagoryId":"onion",
                     "type":"vegetables",
                     "imagePath":"/images/vegetables/onion2.jpg",
@@ -385,7 +385,7 @@
                     "previousRate":100
                   },
                   {
-                    "mainId":18.32,
+                    "mainId":7774,
                     "catagoryId":"onion",
                     "type":"vegetables",
                     "imagePath":"/images/vegetables/onion10.jpg",
@@ -395,7 +395,7 @@
                     "previousRate":80
                   },
                   {
-                    "mainId":18.33,
+                    "mainId":7775,
                     "catagoryId":"onion",
                     "type":"vegetables",
                     "imagePath":"/images/vegetables/onion11.jpg",
@@ -405,7 +405,7 @@
                     "previousRate":100
                   },
                   {
-                    "mainId":18.35,
+                    "mainId":7776,
                     "catagoryId":"onion",
                     "type":"vegetables",
                     "imagePath":"/images/vegetables/onion12.jpg",
@@ -416,7 +416,7 @@
                     "previousRate":200
                   },
                   {
-                    "mainId":18.39,
+                    "mainId":7778,
                     "catagoryId":"onion",
                     "type":"vegetables",
                     "imagePath":"/images/vegetables/onion2.jpg",
@@ -426,7 +426,7 @@
                     "previousRate":200
                   },
                   {
-                    "mainId":18.38,
+                    "mainId":7779,
                     "catagoryId":"onion",
                     "type":"vegetables",
                     "imagePath":"/images/vegetables/onion10.jpg",
@@ -436,7 +436,7 @@
                     "previousRate":220
                   },
                   {
-                    "mainId":18.36,
+                    "mainId":7781,
                     "catagoryId":"onion",
                     "type":"vegetables",
                     "imagePath":"/images/vegetables/onion14.jpg",
@@ -1831,7 +1831,7 @@
                         "previousRate":293
                       },
                       {
-                        "mainId":1131,
+                        "mainId":11311,
                         "catagoryId":"biscuit",
                         "type":"snacks",
                         "imagePath":"/images/snacks/biscuit/dbiscuit1.png",
@@ -1842,7 +1842,7 @@
                         "previousRate":67
                       },
                       {
-                        "mainId":1132,
+                        "mainId":11322,
                         "catagoryId":"biscuit",
                         "type":"snacks",
                         "imagePath":"/images/snacks/biscuit/dbiscuit4.webp",
@@ -1852,7 +1852,7 @@
                         "previousRate":79
                       },
                       {
-                        "mainId":1133,
+                        "mainId":11333,
                         "catagoryId":"biscuit",
                         "type":"snacks",
                         "imagePath":"/images/snacks/biscuit/gbiscuit1.webp",
@@ -1863,7 +1863,7 @@
                         "previousRate":107
                       },
                       {
-                        "mainId":1134,
+                        "mainId":11344,
                         "catagoryId":"biscuit",
                         "type":"snacks",
                         "imagePath":"/images/snacks/biscuit/gbiscuit3.png",
@@ -1873,7 +1873,7 @@
                         "currentRate":45,
                         "previousRate":87
                       },{
-                        "mainId":1135,
+                        "mainId":11355,
                         "catagoryId":"biscuit",
                         "type":"snacks",
                         "imagePath":"/images/snacks/biscuit/obiscuit1.jpg",
@@ -1883,7 +1883,7 @@
                         "currentRate":72,
                         "previousRate":90
                       },{
-                        "mainId":1136,
+                        "mainId":11366,
                         "catagoryId":"biscuit",
                         "type":"snacks",
                         "imagePath":"/images/snacks/biscuit/obiscuit3.jpg",
@@ -1892,7 +1892,7 @@
                         "currentRate":45,
                         "previousRate":100
                       },{
-                        "mainId":1137,
+                        "mainId":11377,
                         "catagoryId":"biscuit",
                         "type":"snacks",
                         "imagePath":"/images/snacks/biscuit/obiscuit5.webp",
@@ -1901,7 +1901,7 @@
                         "currentRate":75,
                         "previousRate":87
                       },{
-                        "mainId":1138,
+                        "mainId":11388,
                         "catagoryId":"biscuit",
                         "type":"snacks",
                         "imagePath":"/images/snacks/biscuit/ubiscuit1.jpg",
@@ -1910,7 +1910,7 @@
                         "currentRate":30,
                         "previousRate":87
                       },{
-                        "mainId":1139,
+                        "mainId":11399,
                         "catagoryId":"biscuit",
                         "type":"snacks",
                         "imagePath":"/images/snacks/biscuit/ubiscuit3.jpg",

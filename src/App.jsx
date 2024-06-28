@@ -10,7 +10,6 @@ import { Product } from "./components/product/Product";
 import { BuyProduct } from "./pages/addtocart/BuyProduct";
 
 function App() {
-      
 
   return (
     <div className="app"> 
